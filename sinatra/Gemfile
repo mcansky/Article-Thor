@@ -1,0 +1,16 @@
+source 'http://rubygems.org'
+
+# sinatra
+gem 'sinatra', '1.2.6'
+
+# datamapper
+gem "data_mapper"
+gem "dm-sqlite-adapter"
+
+gem "haml"
+
+# thor
+gem "thor"
+
+# Use unicorn as the web server
+gem 'unicorn'
